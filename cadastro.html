@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li><a href="index.html">Voltar</a></li>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </header>
+    
+    <div class="form-container">
+
+        <form>
+            <h2>Cadastro</h2>
+            <div class="input-group nome-sobrenome">
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Nome">
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome</label><br>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+                </div>
+            </div>
+
+            <label for="cpf">E-mail</label><br>
+            <input type="text" id="cpf" name="cpf" placeholder="E-mail"><br>
+
+            <div class="input-group telefone">
+                <div>
+                    <label for="Endereço>Endereço</label><br>
+                    <input type=" text" id="# name=" cep" placeholder="numero">
+                </div>
+                <div>
+                    <label for="telefone">Telefone</label><br>
+                    <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+                </div>
+            </div>
+
+            <label for="sexo">Sexo</label><br>
+            <select id="sexo" name="sexo">
+                <option value="">Selecione o sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <p>Você gosta de Doramas ou Filmes </p><br>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="preferencia" value="doramas"> Doramas
+                </label>
+                <label>
+                    <input type="radio" name="preferencia" value="filmes"> Filmes
+                </label>
+            </div>
+
+            <div id="sugestao">
+                <label for="assunto">Sugestão de Dorama</label><br>
+                <textarea id="assunto" name="assunto" rows="4"
+                    placeholder="Digite o nome ou tema do Dorama..."></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <footer>
+        </footer>
+    </div>
+</body>
+
+</html>
