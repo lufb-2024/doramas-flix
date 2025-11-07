@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+
+table, td, th{
+    margin-left:auto;
+    margin-right: auto;
+    border: 1px solid rgb(208, 11, 11);
+    height: 365px;
+    width: 500px;
+    padding: 15px;
+}
+
+.doramas{
+    background-color: rgb(121, 123, 124);
+}
+
+text {
+    text-align: center;
+}
+
+img {
+    width: 365px;
+    height: 500px;
+}
+
+.tela {
+    display: flex;
+    padding-top: 60px;
+}
+
+.sinopse {
+    flex: 1;
+    color: white;
+}
+.meio{
+    flex: 1;
+}
+
+
+
+
+.desenvolvimento {
+    color: white; 
+}
+
+.container {
+    flex: 1;
+    font-display: auto;
+}
+
+
+
+.teste {
+    color: red;
+}
+
+.sorriso real {
+    color: white;
+    flex: 1;
+}
+
+/* Cabeçalho e barra de navegação */
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.navbar li a:hover {
+    color: red;
+}
+
+/* Formulário */
+.form-container {
+    color: white;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
